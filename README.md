@@ -1,31 +1,30 @@
 # 小黑日报助手
 
-本仓库用于发布小黑日报助手安装包。
+小黑日报助手桌面端安装包与版本更新。
 
-## 下载 1.7.1
+## 下载 1.7.2
 
-| 系统 | 国内加速 | 原始链接 |
+选择适合你电脑的版本，点击后直接从 GitHub 下载安装包。
+
+| 系统 | 适用设备 | 安装包 |
 | --- | --- | --- |
-| Windows | [加速下载](https://ghfast.top/https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/XiaoheiDailyAssistant-Setup-1.7.1.exe.zip) | [GitHub 下载](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/XiaoheiDailyAssistant-Setup-1.7.1.exe.zip) |
-| macOS · Apple 芯片 | [加速下载](https://ghfast.top/https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/XiaoheiDailyAssistant-1.7.1-mac-arm64.dmg.zip) | [GitHub 下载](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/XiaoheiDailyAssistant-1.7.1-mac-arm64.dmg.zip) |
-| macOS · Intel 芯片 | [加速下载](https://ghfast.top/https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/XiaoheiDailyAssistant-1.7.1-mac-x64.dmg.zip) | [GitHub 下载](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/XiaoheiDailyAssistant-1.7.1-mac-x64.dmg.zip) |
+| Windows | 64 位 Windows 电脑 | [下载 Windows 版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-Setup-1.7.2.exe.zip) |
+| macOS · Apple 芯片 | 搭载 M 系列芯片的 Mac | [下载 Mac Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg.zip) |
+| macOS · Intel 芯片 | 搭载 Intel 处理器的 Mac | [下载 Mac Intel 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-x64.dmg.zip) |
 
-[查看全部版本](https://github.com/shjiyue/xiaoheiribao/releases)
+[查看 1.7.2 更新内容](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.2) · [查看历史版本](https://github.com/shjiyue/xiaoheiribao/releases)
 
-下载后请先解压：Windows 运行 `.exe` 安装程序；Mac 打开 `.dmg`，按提示安装。
-Mac 用户请根据「关于本机」中的芯片信息选择 Apple 芯片版或 Intel 芯片版。
+## 安装方法
 
-加速链接使用第三方服务 ghfast；如暂时不可用，可尝试 GitHub 原始链接。
+1. 下载上表对应的 ZIP 安装包并解压。
+2. **Windows：** 双击解压后的 `.exe`，按提示完成安装。
+3. **Mac：** 打开解压后的 `.dmg`，将「小黑日报助手」拖入「应用程序」文件夹，再从「应用程序」启动。
 
-## 文件校验
+不确定 Mac 的芯片类型？点击屏幕左上角 ** → 关于本机**：显示「Apple M…」请选择 Apple 芯片版，显示「Intel」请选择 Intel 芯片版。
 
-安装包 ZIP 的 SHA-256 可在对应 Release 的 [SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.1/SHA256SUMS.txt) 中查看。
+<details>
+<summary>文件校验（可选）</summary>
 
-## 自动更新
+上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/INSTALLER-ZIP-SHA256SUMS.txt)。
 
-当前 Release 提供手动下载安装包。客户端自动更新接入需要另行配置更新地址，并上传同次构建生成的更新文件：
-
-- Windows：安装程序 `.exe`、`latest.yml` 和对应的 `.blockmap`。
-- macOS：包含 `.app` 的更新 ZIP、对应的 `latest-mac.yml` 及构建生成的 `.blockmap`，按芯片架构分别发布。
-
-本页提供的 `.dmg.zip` 是 Mac 安装镜像的压缩包，不能替代客户端自动更新所需的应用 ZIP。
+</details>
