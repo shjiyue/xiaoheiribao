@@ -2,17 +2,17 @@
 
 小黑日报助手桌面端安装包与版本更新。
 
-## 下载 1.7.2
+## 下载 1.7.3
 
 选择适合你电脑的版本，点击后直接从 GitHub 下载安装包。
 
 | 系统 | 适用设备 | 安装包 |
 | --- | --- | --- |
-| Windows | 64 位 Windows 电脑 | [下载 Windows 版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-Setup-1.7.2.exe.zip) |
-| macOS · Apple 芯片 | 搭载 M 系列芯片的 Mac | [下载 Mac Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-arm64.dmg.zip) |
-| macOS · Intel 芯片 | 搭载 Intel 处理器的 Mac | [下载 Mac Intel 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/XiaoheiDailyAssistant-1.7.2-mac-x64.dmg.zip) |
+| Windows | 64 位 Windows 电脑 | [下载 Windows 版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.3/XiaoheiDailyAssistant-Setup-1.7.3.exe.zip) |
+| macOS · Apple 芯片 | 搭载 M 系列芯片的 Mac | [下载 Mac Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.3/XiaoheiDailyAssistant-1.7.3-mac-arm64.dmg.zip) |
+| macOS · Intel 芯片 | 搭载 Intel 处理器的 Mac | [下载 Mac Intel 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.3/XiaoheiDailyAssistant-1.7.3-mac-x64.dmg.zip) |
 
-[查看 1.7.2 更新内容](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.2) · [查看历史版本](https://github.com/shjiyue/xiaoheiribao/releases)
+[查看 1.7.3 更新内容](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.3) · [查看历史版本](https://github.com/shjiyue/xiaoheiribao/releases)
 
 ## 安装方法
 
@@ -25,6 +25,6 @@
 <details>
 <summary>文件校验（可选）</summary>
 
-上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.2/INSTALLER-ZIP-SHA256SUMS.txt)。
+上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.3/INSTALLER-ZIP-SHA256SUMS.txt)。
 
 </details>
