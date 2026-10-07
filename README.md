@@ -4,7 +4,7 @@
 
 官网：[www.xiaoheiribao.com](https://www.xiaoheiribao.com)
 
-> **本仓库仅用于发布桌面端安装包与版本更新说明，不包含产品源代码。** 如需了解产品功能或获取其他下载渠道，请访问官网；国内用户也可从 [CNB 发布页](https://cnb.cool/epiphanymind/XiaoheiReleases/-/releases) 下载同版本安装包。
+> **本仓库仅用于发布桌面端安装包与版本更新说明，不包含产品源代码。**
 
 ## 产品能力
 
@@ -30,15 +30,13 @@ AI 从时间线中提取待办，并结合后续工作记录辅助评估完成�
 
 ## 下载安装包
 
-选择适合你电脑的版本，点击后从本仓库 **Releases** 下载 ZIP 安装包：
+选择适合你电脑的版本，点击后从本仓库 [Releases](https://github.com/shjiyue/xiaoheiribao/releases) 下载 ZIP 安装包：
 
 | 系统 | 适用设备 | 安装包 |
 | --- | --- | --- |
 | Windows | 64 位 Windows 电脑 | [下载 Windows 版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.5/XiaoheiDailyAssistant-Setup-1.7.5.exe.zip) |
 | macOS · Apple 芯片 | 搭载 M 系列芯片的 Mac | [下载 Mac Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.5/XiaoheiDailyAssistant-1.7.5-mac-arm64.dmg.zip) |
 | macOS · Intel 芯片 | 搭载 Intel 处理器的 Mac | [下载 Mac Intel 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.5/XiaoheiDailyAssistant-1.7.5-mac-x64.dmg.zip) |
-
-[查看 1.7.5 更新内容](https://github.com/shjiyue/xiaoheiribao/releases/tag/v1.7.5) · [查看历史版本](https://github.com/shjiyue/xiaoheiribao/releases)
 
 ### 安装方法
 
@@ -54,9 +52,3 @@ AI 从时间线中提取待办，并结合后续工作记录辅助评估完成�
 上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.5/INSTALLER-ZIP-SHA256SUMS.txt)。
 
 </details>
-
-## 关于本仓库
-
-- 每个正式版本在 [Releases](https://github.com/shjiyue/xiaoheiribao/releases) 提供 Windows / macOS（Apple 芯片与 Intel）安装包、自动更新用 blockmap 及校验文件。
-- 应用内自动更新由官网托管的更新清单分发；本仓库与 [CNB 发布仓库](https://cnb.cool/epiphanymind/XiaoheiReleases/-/releases) 提供**同一版本**的安装包镜像，便于手动下载与备用。
-- 产品使用问题、反馈与文档请前往 [官网](https://www.xiaoheiribao.com)。
