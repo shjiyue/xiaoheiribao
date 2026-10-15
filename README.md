@@ -34,9 +34,9 @@ AI 从时间线中提取待办，并结合后续工作记录辅助评估完成�
 
 | 系统 | 适用设备 | 安装包 |
 | --- | --- | --- |
-| Windows | 64 位 Windows 电脑 | [下载 Windows 版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.6/XiaoheiDailyAssistant-Setup-1.7.6.exe.zip) |
-| macOS · Apple 芯片 | 搭载 M 系列芯片的 Mac | [下载 Mac Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.6/XiaoheiDailyAssistant-1.7.6-mac-arm64.dmg.zip) |
-| macOS · Intel 芯片 | 搭载 Intel 处理器的 Mac | [下载 Mac Intel 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.6/XiaoheiDailyAssistant-1.7.6-mac-x64.dmg.zip) |
+| Windows | 64 位 Windows 电脑 | [下载 Windows 版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.8.0/XiaoheiDailyAssistant-Setup-1.8.0.exe.zip) |
+| macOS · Apple 芯片 | 搭载 M 系列芯片的 Mac | [下载 Mac Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.8.0/XiaoheiDailyAssistant-1.8.0-mac-arm64.dmg.zip) |
+| macOS · Intel 芯片 | 搭载 Intel 处理器的 Mac | [下载 Mac Intel 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.8.0/XiaoheiDailyAssistant-1.8.0-mac-x64.dmg.zip) |
 
 ### 安装方法
 
@@ -49,6 +49,6 @@ AI 从时间线中提取待办，并结合后续工作记录辅助评估完成�
 <details>
 <summary>文件校验（可选）</summary>
 
-上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.7.6/INSTALLER-ZIP-SHA256SUMS.txt)。
+上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.8.0/INSTALLER-ZIP-SHA256SUMS.txt)。
 
 </details>
