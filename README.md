@@ -52,3 +52,38 @@ AI 从时间线中提取待办，并结合后续工作记录辅助评估完成�
 上表三个 ZIP 安装包的 SHA-256 校验值见 [INSTALLER-ZIP-SHA256SUMS.txt](https://github.com/shjiyue/xiaoheiribao/releases/download/v1.8.3/INSTALLER-ZIP-SHA256SUMS.txt)。
 
 </details>
+
+## 小黑日报助手 Lite
+
+小黑日报助手 Lite 是独立的轻量桌面应用，专注于「自动记录工作 → 本地保存时间线 → 供其他 Agent 查询」。如果你主要需要回顾每天做了什么，或希望现有的 AI Agent 结合真实工作记录生成日报、周报，可以选择 Lite。
+
+### 基础功能
+
+- **自动记录**：按设定间隔截取选中的显示器，调用视觉模型生成文字记录；支持回车键触发记录、闲置暂停、画面去重与焦点窗口特写。
+- **记忆时间线**：按日期、分类和关键词查看记录，支持编辑、删除及复制文字。
+- **工作概览与热力图**：查看每日记录、活跃时长、主要分类，以及时段和年度热力图。
+- **模型用量统计**：查看调用记录、Token 用量与失败情况。
+- **Agent 接入**：通过仅监听本机的 HTTP API 查询时间线、每日概览和热力图，也可由 Agent 写入记录；「Skill 调用」页提供接入说明。
+- **日常使用**：托盘后台运行、开机自启、可选截图留存、性能监控和运行日志；可选通过 Hook 上报记录。
+
+### 与小黑日报助手的区别
+
+Lite 聚焦记录、查询和基础统计，不包含小黑日报助手中的内置 Bot 对话、多 Bot 协作、待办管理、报告模板市场及音视频等多种记录入口。Lite 本身不内置日报、周报生成页面，可由你正在使用的 Agent 查询记录后生成报告。
+
+Lite 使用 Rust + GPUI 开发，支持 macOS 和 Windows。模型服务需自行配置 API Key、接口地址和支持图片识别的模型；模型费用由对应服务商收取。时间线和配置保存在本机，截图识别会发送到你配置的模型服务；截图默认不落盘，可在设置中开启保存。开启 Hook 后，记录也会按设置上报到指定地址。
+
+Lite 使用独立的机器授权与免费试用机制，实际试用次数、价格及可购买方案以应用内显示为准；启动和使用期间需要联网校验授权。无需登录账号，现有小黑日报助手的账号或订阅不会自动转为 Lite 授权。
+
+### Lite 0.1.0 下载
+
+Lite 使用独立的 `lite-v` 前缀发布版本，与原有小黑日报助手的 Release 分开命名。原有版本名称和下载入口保持不变。
+
+| 系统 | 适用设备 | 下载 |
+| --- | --- | --- |
+| Windows | x64 Windows 电脑 | [下载 Lite Windows x64](https://github.com/shjiyue/xiaoheiribao/releases/download/lite-v0.1.0/xiaohei-lite-0.1.0-windows-x64.zip) |
+| macOS | Apple M 系列芯片 | [下载 Lite macOS Apple 芯片版](https://github.com/shjiyue/xiaoheiribao/releases/download/lite-v0.1.0/xiaohei-lite-0.1.0-macos-arm64.zip) |
+| macOS | Intel 处理器 | [下载 Lite macOS Intel 版](https://github.com/shjiyue/xiaoheiribao/releases/download/lite-v0.1.0/xiaohei-lite-0.1.0-macos-x86_64.zip) |
+
+解压 ZIP 后，Windows 双击 `.exe` 即可运行；macOS 建议将 `.app` 拖入「应用程序」后启动，两个 Mac 版本均已完成 Developer ID 签名及 Apple 公证。首次使用请配置模型并按提示授予系统权限。关闭窗口后仍在托盘运行，退出请使用托盘菜单。
+
+更新前先彻底退出旧版本，再替换程序文件；配置和历史记录保存在用户数据目录。此仓库本次仅提供 Lite 说明与安装包，不包含 Lite 源码。
